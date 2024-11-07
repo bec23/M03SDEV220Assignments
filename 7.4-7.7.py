@@ -6,3 +6,6 @@ print(things)
 #make the cheesy element of things all uppercase and print list
 things[0]= things[0].upper()
 print(things)
+#delete the disease element and print list
+things.remove('salmonella')
+print(things)
